@@ -14,7 +14,7 @@ requires:
 - Asset
 
 provides: [Animation, AnimationObjectStatic, AnimationObjetCanvas, AnimationObjectAnimated]
----
+...
 */
 
 window.requestAnimFrame = (function() {
