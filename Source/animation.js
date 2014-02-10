@@ -7,14 +7,13 @@ license: MIT-style
 authors: Olivier Gasc (gasc.olivier@gmail.com)
 
 requires:
-- Class
 - Array
 - Options
 - Events
 - Asset
 
 provides: [Animation, AnimationObjectStatic, AnimationObjetCanvas, AnimationObjectAnimated]
-
+...
 */
 
 window.requestAnimFrame = (function() {

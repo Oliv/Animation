@@ -62,7 +62,7 @@ Syntax of the connectors added in the animation manager :
 
 
 Behaviour
-----------
+---------
 
 The animation manager hosts connectors and draw them, using their own customized draw() function every frame.
 Using add() function will add a connector to the stack, displaying next frame.
@@ -79,6 +79,6 @@ Currently written connectors, planning to add more soon :
 
 
 Demo
-----------
+----
 
 [Very basic for now](http://oliv.hazlab.fr/otranim)
