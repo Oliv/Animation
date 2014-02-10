@@ -6,11 +6,7 @@ license: MIT-style
 
 authors: Olivier Gasc (gasc.olivier@gmail.com)
 
-requires:
-- Array
-- Options
-- Events
-- Asset
+requires: [Array, Options, Events, Asset]
 
 provides: [Animation, AnimationObjectStatic, AnimationObjetCanvas, AnimationObjectAnimated]
 ...
