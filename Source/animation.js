@@ -4,7 +4,7 @@ description: Animated sprites
 
 license: MIT-style
 
-authors: Olivier Gasc (gasc.olivier@gmail.com)
+authors: Olivier Gasc <gasc.olivier@gmail.com>
 
 requires: [Array, Options, Events, Asset]
 
