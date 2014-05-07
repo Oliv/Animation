@@ -1,3 +1,19 @@
+/*
+---
+description: Animation connector : canvas
+
+license: MIT-style
+
+authors: Olivier Gasc (gasc.olivier@gmail.com)
+
+requires:
+- AnimationManager
+- AnimationStatic
+
+provides: [AnimationCanvas]
+...
+*/
+
 AnimationCanvas = new Class({
     Extends: AnimationStatic,
 

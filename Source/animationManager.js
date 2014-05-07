@@ -1,3 +1,22 @@
+/*
+---
+description: Animation manager
+
+license: MIT-style
+
+authors: Olivier Gasc (gasc.olivier@gmail.com)
+
+requires:
+- Events
+- Element
+- Element.Dimensions
+- Array
+- Function
+
+provides: [AnimationManager]
+...
+*/
+
 // shim layer with setTimeout fallback
 window.requestAnimFrame = (function() {
     return  window.requestAnimationFrame       ||

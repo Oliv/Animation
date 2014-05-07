@@ -1,3 +1,19 @@
+/*
+---
+description: Animation connector : sprite
+
+license: MIT-style
+
+authors: Olivier Gasc (gasc.olivier@gmail.com)
+
+requires:
+- AnimationManager
+- AnimationStatic
+
+provides: [AnimationAnimated]
+...
+*/
+
 AnimationAnimated = new Class({
     Extends: AnimationStatic,
 

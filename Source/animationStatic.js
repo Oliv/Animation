@@ -1,3 +1,19 @@
+/*
+---
+description: Animation connector : static image
+
+license: MIT-style
+
+authors: Olivier Gasc (gasc.olivier@gmail.com)
+
+requires:
+- AnimationManager
+- Options
+
+provides: [AnimationStatic]
+...
+*/
+
 AnimationStatic = new Class({
     Implements: Options,
 
