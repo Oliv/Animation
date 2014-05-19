@@ -62,8 +62,8 @@ AnimationStatic = new Class({
     },
 
     onLoad: function(img) {
-        this.width = +this.options.image.get('width')
-        this.height = +this.options.image.get('height')
+        this.width = +this.options.image.width
+        this.height = +this.options.image.height
         this.loaded = true
 
         this.options.onLoad.attempt([], this)

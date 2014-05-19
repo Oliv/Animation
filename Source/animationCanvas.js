@@ -49,8 +49,8 @@ AnimationCanvas = new Class({
     },
 
     onLoad: function(img) {
-        this.width = +this.options.canvas.get('width')
-        this.height = +this.options.canvas.get('height')
+        this.width = +this.options.canvas.width
+        this.height = +this.options.canvas.height
         this.loaded = true
 
         this.options.onLoad.attempt([], this)
